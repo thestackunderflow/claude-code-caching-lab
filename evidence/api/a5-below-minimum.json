@@ -1,0 +1,30 @@
+{
+  "name": "a5-below-minimum",
+  "note": "a prompt shorter than the 512-token minimum for Haiku 5.5: no caching, no error",
+  "model": "claude-haiku-5-5",
+  "at": "2026-10-19T14:16:05+00:00",
+  "seconds": 0.5,
+  "request_id": "req_011CgBjixrThs7BaowoRAZu4",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 31,
+    "output_tokens": 4,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "class": "uncached",
+  "hit_ratio": 0.0,
+  "cost_usd": 5e-06,
+  "tool_choice": null,
+  "tool_descriptions": []
+}

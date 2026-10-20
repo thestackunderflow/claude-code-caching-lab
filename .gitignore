@@ -1,0 +1,5 @@
+evidence/**/*.stderr
+.env
+__pycache__/
+.pytest_cache/
+primer-out/

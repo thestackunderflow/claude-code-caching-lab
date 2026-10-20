@@ -1,0 +1,35 @@
+{
+  "name": "a4c-tool-choice-changed",
+  "note": "only tool_choice changed: docs say only the messages layer is invalidated",
+  "model": "claude-haiku-5-5",
+  "at": "2026-10-19T14:16:05+00:00",
+  "seconds": 0.83,
+  "request_id": "req_011CgBjiuJeJ2PjgfS8htEgE",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 1788
+    },
+    "cache_creation_input_tokens": 1788,
+    "cache_read_input_tokens": 7304,
+    "inference_geo": "global",
+    "input_tokens": 14,
+    "output_tokens": 20,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "class": "partial",
+  "hit_ratio": 0.8021,
+  "cost_usd": 0.000308,
+  "tool_choice": {
+    "type": "any"
+  },
+  "tool_descriptions": [
+    "Read a file from the repository and return its text.",
+    "Run the test suite and return the summary line."
+  ]
+}

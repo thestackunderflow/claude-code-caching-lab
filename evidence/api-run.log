@@ -1,0 +1,13 @@
+a1-cold                      miss     read=0 write=7304 in=85 $0.000924
+a2-same-again                hit      read=7304 write=0 in=85 $0.000084
+a3-tool-description-changed  miss     read=0 write=7316 in=85 $0.000925
+a4a-two-breakpoints-warm     partial  read=7304 write=1678 in=4 $0.000293
+a4b-two-breakpoints-again    hit      read=8982 write=0 in=4 $0.000100
+a4c-tool-choice-changed      partial  read=7304 write=1788 in=14 $0.000308
+a5-below-minimum             uncached read=0 write=0 in=31 $0.000005
+a6-warm-1h                   miss     read=0 write=7304 in=85 $0.001471
+a7-warm-5m                   hit      read=7304 write=0 in=85 $0.000084
+waiting 6 minutes ...
+a8-5m-after-6-minutes        miss     read=0 write=7304 in=85 $0.000924
+a9-1h-after-6-minutes        hit      read=7304 write=0 in=85 $0.000084
+total $0.005200

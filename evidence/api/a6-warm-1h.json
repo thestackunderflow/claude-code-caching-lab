@@ -1,0 +1,33 @@
+{
+  "name": "a6-warm-1h",
+  "note": "a 1-hour cache write (2x)",
+  "model": "claude-haiku-5-5",
+  "at": "2026-10-19T14:16:06+00:00",
+  "seconds": 0.75,
+  "request_id": "req_011CgBjj12Rp7ED9Y87xPGkv",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7304,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 7304,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 85,
+    "output_tokens": 4,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "class": "miss",
+  "hit_ratio": 0.0,
+  "cost_usd": 0.001471,
+  "tool_choice": null,
+  "tool_descriptions": [
+    "Read a file from the repository and return its text.",
+    "Run the test suite and return the summary line."
+  ]
+}

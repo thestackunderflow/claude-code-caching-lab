@@ -1,0 +1,6 @@
+FAILED tests/test_usage.py::test_break_even_is_one_read_for_5m_and_two_for_1h
+FAILED tests/test_usage.py::test_episode_5_claim_of_1_5_reads_is_not_the_break_even
+12 failed in 0.04s
+3 failed in 0.23s
+2 failed, 15 passed in 0.19s
+1 failed, 5 passed in 0.10s

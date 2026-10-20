@@ -1,0 +1,33 @@
+{
+  "name": "a3-tool-description-changed",
+  "note": "one word added to one tool description",
+  "model": "claude-haiku-5-5",
+  "at": "2026-10-19T14:16:02+00:00",
+  "seconds": 0.97,
+  "request_id": "req_011CgBjiiPog6jUWJD8ibD8A",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 7316
+    },
+    "cache_creation_input_tokens": 7316,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 85,
+    "output_tokens": 4,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "class": "miss",
+  "hit_ratio": 0.0,
+  "cost_usd": 0.000925,
+  "tool_choice": null,
+  "tool_descriptions": [
+    "Read a file from the repository and return its text. Paths are relative to the repo root.",
+    "Run the test suite and return the summary line."
+  ]
+}

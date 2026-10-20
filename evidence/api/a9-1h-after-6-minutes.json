@@ -1,0 +1,33 @@
+{
+  "name": "a9-1h-after-6-minutes",
+  "note": "6 minutes idle: the 1-hour entry is still there",
+  "model": "claude-haiku-5-5",
+  "at": "2026-10-19T14:22:09+00:00",
+  "seconds": 0.65,
+  "request_id": "req_011CgBkBmU6hgePg3RaCtdVk",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 7304,
+    "inference_geo": "global",
+    "input_tokens": 85,
+    "output_tokens": 4,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "class": "hit",
+  "hit_ratio": 0.9885,
+  "cost_usd": 8.4e-05,
+  "tool_choice": null,
+  "tool_descriptions": [
+    "Read a file from the repository and return its text.",
+    "Run the test suite and return the summary line."
+  ]
+}

@@ -1,0 +1,22 @@
+12 passed in 0.02s
+15 passed in 0.20s
+17 passed in 0.15s
+31 passed in 0.34s
+32 passed in 0.33s
+c01-first-turn                   partial  read=11352 write=6093 in=2 1h=0 why=None $0.0008773450000000001
+c02-same-again                   partial  read=14247 write=3260 in=2 1h=0 why=messages_changed $0.0014295150000000001
+c03-after-claude-md-edit         hit      read=17460 write=230 in=2 1h=0 why=messages_changed $0.0016350650000000002
+c04-model-switched               miss     read=0 write=14086 in=10 1h=0 why=model_changed $0.019417565
+c05-model-switched-back          hit      read=17643 write=937 in=2 1h=0 why=model_changed $0.01971332
+c06-mcp-server-added             hit      read=18580 write=286 in=2 1h=0 why=None $0.01993707
+c07-mcp-server-removed           hit      read=18866 write=278 in=2 1h=0 why=None $0.020162680000000002
+c08-toolsearch-off-first         miss     read=0 write=31554 in=2 1h=0 why=None $0.00394645
+c09-toolsearch-off-again         hit      read=28521 write=3095 in=2 1h=0 why=messages_changed $0.004620735
+c10-toolsearch-off-mcp-added     miss     read=0 write=33846 in=2 1h=0 why=tools_changed $0.008853685
+c11-new-session-same-dir         partial  read=13648 write=3812 in=2 1h=0 why=None $0.00061518
+c12-1h-first                     partial  read=11227 write=6108 in=2 1h=6108 why=None $0.00133607
+c13-before-wait                  hit      read=19144 write=63 in=2 1h=0 why=None $0.020364195
+c14-after-6-minutes              partial  read=11352 write=7918 in=2 1h=0 why=None $0.021469665000000002
+c15-1h-after-6-minutes           partial  read=14137 write=3260 in=2 1h=3260 why=messages_changed $0.0021316399999999998
+total $0.0331 (each session counted once)
+33 passed in 0.35s
